@@ -1,0 +1,49 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    nav {
+        width: 50%;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+    
+            li {
+                list-style: none;
+    
+                a {
+                    text-decoration: none;
+                    color: $blanco;
+                    font-size: x-small;
+                }
+            }
+    
+        }
+    }        
+        
+}
+
+header img {
+    max-width: 75px;
+    max-height: 50px;
+}
+
+@media only screen and (min-width: 714px) {
+    
+      .menu-principal {
+        //   display: flex;
+        //   flex-direction: row;          
+        //   align-items: flex-start;
+          border:1px solid red;
+          ul li a {
+            border:1px solid beige;
+
+          }
+
+
+      }
+    
+  }
+
