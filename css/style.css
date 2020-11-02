@@ -48,15 +48,6 @@ header img {
   max-height: 50px;
 }
 
-@media only screen and (min-width: 714px) {
-  .menu-principal {
-    border: 1px solid red;
-  }
-  .menu-principal ul li a {
-    border: 1px solid beige;
-  }
-}
-
 main div.div-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,7 +154,6 @@ section.section-1 article p {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    border: 1px solid red;
   }
   section.section-1 article {
     width: 50%;
@@ -203,23 +193,24 @@ section.section-1 article p {
   font-size: 25px;
 }
 
-#access-card input {
+#access-card div input {
   padding: 8px 50px;
   border-radius: 15px;
   border: none;
   color: #d6d6d6;
+  margin: 30px;
 }
 
-#access-card button {
+#access-card div button {
   padding: 8px 50px;
   background-image: -webkit-gradient(linear, right top, left top, from(#2eb0c8), to(#81e0f1));
   background-image: linear-gradient(to left, #2eb0c8, #81e0f1);
   border-radius: 15px;
   border: none;
-  margin-bottom: 85px;
+  margin-bottom: 30px;
 }
 
-#access-card button:hover {
+#access-card div button:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   -webkit-transition: 0.5s;
@@ -318,7 +309,6 @@ section.section-2 div.bloque-2 article hr {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border: 1px solid red;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
@@ -328,7 +318,6 @@ section.section-2 div.bloque-2 article hr {
   }
   div.container-profiles .card-profiles {
     width: 33.33%;
-    border: 1px solid red;
     margin: 5px;
   }
 }
@@ -340,7 +329,6 @@ section.section-2 div.bloque-2 article hr {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    border: 1px solid red;
   }
   div.bloque-2 article {
     width: 50%;
@@ -352,7 +340,6 @@ section.section-2 div.bloque-2 article hr {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    border: 1px solid red;
   }
   #access-card h3 {
     -webkit-box-align: center;
@@ -365,24 +352,8 @@ section.section-2 div.bloque-2 article hr {
     max-width: 600px;
   }
   #access-card .enter-email {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    border: 1px solid red;
-  }
-  #access-card .boton-gratis {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    border: 1px solid red;
+    height: 25px;
+    width: 420px;
   }
 }
 
@@ -496,7 +467,6 @@ footer .container-footer nav ul {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    border: 1px solid red;
   }
   div.container-footer img {
     width: -webkit-fit-content;
@@ -512,8 +482,13 @@ footer .container-footer nav ul {
   div.container-footer .caja-1 {
     margin: 3px;
   }
-  article.container-info .item-info {
-    border: 1px solid red;
+  div.container-footer .item-info img {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 /*# sourceMappingURL=style.css.map */

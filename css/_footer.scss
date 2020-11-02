@@ -42,10 +42,7 @@ footer {
             max-width: 120px;
             
         }
-
-            // p {
-            //     // display: inline-block;
-            // }
+        
         nav {
             height: 20%;
             margin: 10px 0;
@@ -100,11 +97,6 @@ footer {
 .caja-1 {
     padding: 1rem;
     border-radius: 50%;
-
-    // i {
-    //     width: 50%;
-    //     height: 25px;
-    // }
 }
 
 @media only screen and (min-width: 714px) {
@@ -118,7 +110,6 @@ footer {
         }
         display: flex;
 	    flex-direction: row;
-        border:1px solid red;
 
         article {
             width: 25%;
@@ -128,13 +119,13 @@ footer {
             margin: 3px;
         }
 
-    }
+        .item-info {
 
-    article.container-info {
-
-        .item-info{
-                border:1px solid red;
+            img {
+                width: fit-content;
+                height: fit-content;
             }
+        }
             
         }
     

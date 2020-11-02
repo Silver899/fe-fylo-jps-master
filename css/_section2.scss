@@ -11,7 +11,7 @@
     position: relative;
     top: 200px;
     left: 10%;
-    // right: 0;
+
     p {
         font-size: small;
         text-align: center;
@@ -21,17 +21,18 @@
         font-size: 25px;
     }
 
-    input {
+    div input {
         padding: 8px 50px;
         border-radius: 15px;
         border: none;
         color: #d6d6d6;
+        margin: 30px;
     }
 
-    button {
+    div button {
         @include styleButton();
-        margin-bottom: 85px;
-        
+        margin-bottom: 30px;   
+  
 
         &:hover {
             transform: scale(1.1);
@@ -50,9 +51,7 @@ section.section-2 {
         article {
             display: flex;
             flex-direction: column;
-            // align-items: center;
             padding: 50px 20px;
-            // text-align: left;
     
             img {
                 max-width: 85%;
@@ -128,10 +127,6 @@ section.section-2 {
 @media only screen and (min-width: 714px) {
     div.container-profiles  {
         display: flex;
-	    // flex-direction: row;
-        // flex-wrap: wrap;
-        border:1px solid red;
-        // width: 33.33%;
         justify-content: space-around;
 
         img {
@@ -143,21 +138,14 @@ section.section-2 {
     
        .card-profiles {
          width: 33.33%;
-         border:1px solid red;
          margin: 5px;
-
-
-         
-
-
-    }
+        }
     }
 }
     @media only screen and (min-width: 714px) {
         div.bloque-2  {
             display: flex;
             flex-wrap: wrap;
-            border:1px solid red;
             article {
                 width: 50%;
             }
@@ -166,11 +154,6 @@ section.section-2 {
     @media only screen and (min-width: 714px) {
             #access-card  {
                 display: flex;
-                // flex-direction: row;
-                // flex-wrap: wrap;
-                // justify-content: space-between;
-                // align-items: center;
-                border:1px solid red;
 
                 h3 {
                     align-items: center;
@@ -180,23 +163,11 @@ section.section-2 {
                     align-content: center;
                     max-width: 600px;
                 }
-
-                .enter-email {
-                    display: flex;
-                    flex-direction: row;
-                    border:1px solid red;
-                    // width: 50%;
-                    // position: absolute;
-                }
-
-                .boton-gratis {
-                    display: flex;
-                    flex-direction: row;
-                    border:1px solid red;
-                    // width: 50%;
-                    // position: absolute;
-                    // object-position: bottom
-                }
+                
+                 .enter-email {
+                     height: 25px;
+                     width: 420px;
+                 }
         
             }   
         }    
