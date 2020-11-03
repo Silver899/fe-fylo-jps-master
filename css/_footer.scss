@@ -25,14 +25,12 @@
 
 
 footer {
-    // height: 20%;
     background-color: $azul2;
 
     .container-footer {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 1000px;
         padding-top: 300px;
         padding-right: 1.5rem;
         padding-left: 1.5rem;
@@ -105,8 +103,8 @@ footer {
     div.container-footer {
         
         img {
-            width: fit-content;
-            height: fit-content;
+            width: 120px;
+            height: 50px;
         }
         display: flex;
 	    flex-direction: row;
@@ -127,7 +125,7 @@ footer {
             }
         }
             
-        }
+        }   
     
 }
 

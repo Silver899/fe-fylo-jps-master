@@ -11,6 +11,7 @@
     position: relative;
     top: 200px;
     left: 10%;
+   
 
     p {
         font-size: small;
@@ -21,7 +22,7 @@
         font-size: 25px;
     }
 
-    div input {
+    input {
         padding: 8px 50px;
         border-radius: 15px;
         border: none;
@@ -29,15 +30,20 @@
         margin: 30px;
     }
 
-    div button {
+    button {
         @include styleButton();
-        margin-bottom: 30px;   
+        margin-bottom: 30px;  
+
   
 
         &:hover {
             transform: scale(1.1);
             transition: 0.5s;
         }
+    }
+
+    .boton-gratis {
+        margin-left: 45px;
     }
 }
 
@@ -59,8 +65,9 @@ section.section-2 {
             }
     
             h4 {
-                width: 100%;
+                width: 50%;
                 margin-bottom: 15px;
+                flex-direction: column;
             }
     
             p {
@@ -144,10 +151,21 @@ section.section-2 {
 }
     @media only screen and (min-width: 714px) {
         div.bloque-2  {
+            align-items: center;
             display: flex;
             flex-wrap: wrap;
+
+            
             article {
                 width: 50%;
+
+                h4 {
+                    font-size: 35px;
+                }
+
+                p {
+                    max-width: 600px;
+                }
             }
         }
         
@@ -169,7 +187,7 @@ section.section-2 {
                      width: 420px;
                  }
         
-            }   
-        }    
+            }       
+       }       
     }
         
